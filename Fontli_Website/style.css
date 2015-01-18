@@ -1,0 +1,67 @@
+@font-face{font-family: 'NettoPro';}
+html, body{border: 0; padding: 0; font-family: 'Arial';}
+
+body {margin: 0px; padding: 0px}
+.logo
+{float: left; width: 200px; height: 82px; background-color: #000; margin-left: 20px;}
+
+ .mainmenu #nav {
+      width: 500px;
+      float: right;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      background-color: #f2f2f2;
+      }
+  .mainmenu #nav li {
+      float: right; }
+ .mainmenu   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      }
+ .mainmenu #nav li a:hover {
+      color: #c00;
+      background-color: #fff; }
+   /* End navigation bar styling. */
+
+.mainmenu{height:82px; width:100%; background-color: #ccc;}
+.content1{height: 1080px;
+float: left;
+width: 100%;
+background-color: #777;}
+
+.content2{ min-height: 640px; height: 640px; width: 100%;
+background-color: #ddd; padding-bottom: 40px; float: left;}
+
+
+.text1{float: left; width: 400px; margin-left: 80px; font-size: 24px; font-weight: lighter;}
+.text2{float: left;
+width: 570px;
+height: 250px;
+margin-left: 80px;
+font-size: 24px;
+font-weight: lighter;}
+.text2-1{width: 400px;
+float: left;
+font-size: 24px;}
+.text2-inner{
+float: left;
+margin-left: 50px;
+width: 300px;
+}
+
+.title{font-size: 60px; font-weight: lighter; float: right; 
+	margin-top:50px; margin-right: 50px; }
+.play{ /**background-image: '../bsp/bild.jpg' **/width: 30px; height:30px; margin-top: 400px; margin-left: auto; margin-right: auto;}
+
+.clear{height: 1px; width: 100%;}
+.clear2{height: 1px;width: 100%;float: left;background-color: #000;}
+.clear3{height: 30px;width: 100%;float: left;background-color: #000;}
+
+
+.content3{;width: 100%;background-color: #ddd}
+
+.content3 .text2 img {float: left;}
