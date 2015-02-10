@@ -1,14 +1,19 @@
 @font-face{font-family: 'NettoPro';}
-html, body{border: 0; padding: 0; font-family: 'Arial';}
+html, body{border: 0; padding: 0; font-family: 'NettoPro';}
 
 body {margin: 0px; padding: 0px}
 .logo
-{float: left; width: 200px; height: 82px; background-color: #000; margin-left: 20px;}
+{float: left; width: 200px; height: 40px; 
+   background-color: #f2f2f2; margin-left: 20px;
+   margin-top: 30px; 
+   font-family: 'NettoPro';
+   font-size: 30px;}
 
  .mainmenu #nav {
       width: 500px;
       float: right;
       margin: 0 0 3em 0;
+      margin-top: 20px;
       padding: 0;
       list-style: none;
       background-color: #f2f2f2;
@@ -17,17 +22,16 @@ body {margin: 0px; padding: 0px}
       float: right; }
  .mainmenu   #nav li a {
       display: block;
-      padding: 8px 15px;
+      padding: 15px 30px;
       text-decoration: none;
       font-weight: bold;
-      color: #069;
+      color: #000;
       }
  .mainmenu #nav li a:hover {
-      color: #c00;
-      background-color: #fff; }
+      background-color: #f2f2f2; }
    /* End navigation bar styling. */
 
-.mainmenu{height:82px; width:100%; background-color: #ccc;}
+.mainmenu{height:100px; width:100%; background-color: #f2f2f2;}
 .content1{height: 1080px;
 float: left;
 width: 100%;
@@ -42,11 +46,12 @@ background-color: #ddd; padding-bottom: 40px; float: left;}
 width: 570px;
 height: 250px;
 margin-left: 80px;
-font-size: 24px;
+font-size: 20px;
 font-weight: lighter;}
-.text2-1{width: 400px;
+.text2-1{width: 300px;
 float: left;
-font-size: 24px;}
+margin-left: 25px;
+font-size: 20px;}
 .text2-inner{
 float: left;
 margin-left: 50px;
@@ -55,11 +60,11 @@ width: 300px;
 
 .title{font-size: 60px; font-weight: lighter; float: right; 
 	margin-top:50px; margin-right: 50px; }
-.play{ /**background-image: '../bsp/bild.jpg' **/width: 30px; height:30px; margin-top: 400px; margin-left: auto; margin-right: auto;}
+.play{ /**background-image: '../bsp/bild.jpg' **/width: 30px; height:30px; margin-top: 400px; margin-left: auto; margin-right: auto; color: #fff;}
 
 .clear{height: 1px; width: 100%;}
-.clear2{height: 1px;width: 100%;float: left;background-color: #000;}
-.clear3{height: 30px;width: 100%;float: left;background-color: #000;}
+.clear2{height: 1px;width: 100%;float: left;background-color: #ddd;}
+.clear3{height: 30px;width: 100%;float: left;background-color: #fff;}
 
 
 .content3{;width: 100%;background-color: #ddd}
