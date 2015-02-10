@@ -15,6 +15,7 @@ body {
    font-family: 'NettoPro';
    font-size: 30px;}
 
+<<<<<<< HEAD
 .mainmenu #nav {
    width: 500px;
    float: right;
@@ -25,6 +26,33 @@ body {
 
 .mainmenu #nav li {
    float: right;}
+=======
+ .mainmenu #nav {
+      width: 500px;
+      float: right;
+      margin-top: 20px;
+      padding: 0;
+      list-style: none;
+      background-color: #f2f2f2;
+      }
+  .mainmenu #nav li {
+      float: right; }
+ .mainmenu   #nav li a {
+      display: block;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+      }
+ .mainmenu #nav li a:hover {
+      background-color: #f2f2f2; }
+
+.mainmenu{height:100px; width:100%; background-color: #f2f2f2;}
+.content1{height: 1080px;
+float: left;
+width: 100%;
+background-color: #777;}
+>>>>>>> FETCH_HEAD
 
 .mainmenu  #nav li a {
    display: block;
@@ -82,7 +110,18 @@ width: 300px;}
    float: left;
    margin-left: 50px;
    width: 300px;
+<<<<<<< HEAD
    font-size: 48px;}
+=======
+   font-size: 48px;
+}
+.text3-1{width: 300px;
+float:left;
+margin-left: 50px;
+padding-top: 40px; 
+font-size: 20px;
+font-weight: lighter;}
+>>>>>>> FETCH_HEAD
 
 .text3-1{
    width: 300px;
