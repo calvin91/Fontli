@@ -21,6 +21,7 @@ html, body{border: 0; padding: 0; font-family: 'NettoPro';}
 
 }
 
+
 .text_idee{
 	padding-top: 200px;
 	padding-bottom: 150px;
@@ -57,8 +58,9 @@ html, body{border: 0; padding: 0; font-family: 'NettoPro';}
 }
 
 .produkt{
-	width: 1280px;
-	height: 800px;
+	width: auto;
+	height: auto;
+	/*vertical-align: middle;*/
 }
 
 .bilder_1{
@@ -86,11 +88,25 @@ html, body{border: 0; padding: 0; font-family: 'NettoPro';}
 }
 
 .alle_kacheln{
+	margin-top: 200px;
 	width: 320px;
 	height: 440px;
 }
 
 .text_kacheln{
+	padding-top: 200px;
+	padding-bottom: 150px;
+	font-size: 25px;
+	line-height: 110%;
+}
+
+.projekt{
+	padding: 50px;
+	font-size: 40px;
+	text-align: right;
+}
+
+.text_projekt{
 	padding-top: 200px;
 	padding-bottom: 150px;
 	font-size: 25px;
