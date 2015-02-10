@@ -30,10 +30,11 @@ body {margin: 0px; padding: 0px}
       background-color: #f2f2f2; }
 
 .mainmenu{height:100px; width:100%; background-color: #f2f2f2;}
-.content1{height: 1080px;
+.content1{height: 1078px;
 float: left;
 width: 100%;
-background-color: #777;}
+background-color: #000;}
+
 
 .content2{ min-height: 640px; height: 640px; width: 100%;
 background-color: #ddd; padding-bottom: 40px; float: left;}
@@ -68,7 +69,7 @@ width: 300px;
 .text3-1{width: 300px;
 float:left;
 margin-left: 50px;
-padding-top: 40px; 
+padding-top: 38px; 
 font-size: 20px;
 font-weight: lighter;}
 
